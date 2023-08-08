@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crappo Crypto</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/89ce5c0afa.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /> -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="bg-color-primary font-custom" data-aos-easing="ease" >
+
+
+<div class="overflow-hidden">
+        <!-- NAVBAR -->
+ <nav class="m-auto w-4/5 flex justify-between items-center text-color-white mt-7 max-lg:w-[90%]">
+     <div>
+         <img src="img/logo.e44a93b92960b7a7a870e08a3080d60e.svg" alt="">
+     </div>
+     
+     <ul class="flex items-center justify-between max-md:hidden">
+         <li class="mr-7 border-b border-transparent hover:border-blue-500"><a href="#">Products</a></li>
+         <li class="mr-7 border-b border-transparent hover:border-blue-500"><a href="#">Features</a></li>
+         <li class="mr-7 border-b border-transparent hover:border-blue-500"><a href="#">About</a></li>
+         <li class="mr-7 border-b border-transparent hover:border-blue-500"><a href="#">Contact</a></li>
+         <li class="mr-4 border-b border-transparent  hover:border-blue-500"><a href="#">Login</a></li>
+         <li class="mr-4 text-gray-400">|</li>
+         <li class="">
+             <button class="bg-blue-500 rounded-3xl py-1 px-4">Register</button>
+         </li>
+     </ul>
+     <div class="hidden max-md:block">
+         <i class="fa-solid fa-bars text-3xl cursor-pointer" id="navbar"></i>
+     </div>
+ </nav>
+
+  <div class="fixed w-full text-color-white -right-full top-0 bottom-0 z-30 transition-all ease-in duration-500" id="subnav">
+   <header class=" bg-color-secondary">
+
+    <div class="w-[80%] m-auto relative"> <i class="fa-solid fa-xmark text-2xl mt-10 cursor-pointer absolute right-0" id="close-nav"></i></div>
+    <nav class="flex justify-center items-center min-h-screen ">
+     <ul class="text-center">
+         <li class="mr-7 text-3xl mb-5"><a href="#">Products</a></li>
+         <li class="mr-7 text-3xl mb-5"><a href="#">Features</a></li>
+         <li class="mr-7 text-3xl mb-5"><a href="#">About</a></li>
+         <li class="mr-7 text-3xl mb-5"><a href="#">Contact</a></li>
+         <li>
+             <ul class="flex items-center">
+                 <li class="mr-4 text-3xl"><a href="#">Login</a></li>
+                 <li class="mr-4 text-gray-400">|</li>
+                 <li><button class="bg-blue-500 rounded-3xl py-2 px-7 text-xl">Register</button></li>
+             </ul>
+         </li>
+     </ul>
+    </nav>
+   </header>
+  </div>
+    
+
+   <!-- HEADER -->
+ <div class=" m-auto w-4/5 mt-10 grid grid-cols-2 gap-9 text-color-white items-center max-lg:w-[90%] max-md:grid-cols-1 max-md:mt-3" >
+     <div data-aos="fade-right" class="pt-12">
+       <div class="bg-gray-600 p-2 flex justify-between max-w-[300px] rounded-2xl text-xs items-center">
+         <span class="text-gray-400 bg-color-white rounded-xl px-3 py-1 w-[30%]">70% SAVE</span>
+         <span class="w-[60%] pr-0 ">for the best black friday deals</span>
+       </div>
+       <h1 class="mt-7 text-5xl font-bold max-xmd:text-4xl">Fastest & Secure Platform To Invest In Cypto</h1> 
+       <p class="text-sm mt-3 mb-3 text-gray-300">buy and sell cyptocurrencies by trusted 10M wallets, in over 100m transactions</p>
+       <button class="bg-blue-500 rounded-3xl py-2 px-4">Try For FREE <span class="bg-color-white rounded-full px-3 py-2 ml-1 w-[10%]"><i class="fa-solid fa-caret-right text-blue-500"></i></span></button>
+     </div>
+     <!-- animate__animated animate__fadeInRight animate__slow  -->
+     <div data-aos="fade-left" class="m-auto">
+         <img src="img/hero-img.bc2cc512f513aaa9f0bf.png" class="w-[100%]" alt="">
+     </div>
+ </div>
+
+   <!--  STATS -->
+ <div class=" flex justify-between mt-20 text-color-white m-auto w-4/5 max-lg:w-[90%] max-md:grid max-md:grid-cols-1 max-md:gap-14 ">
+     <div class="flex items-center justify-between max-md:justify-normal max-md:m-auto">
+        <div class="mr-5 text-2xl bg-gray-600 rounded-full py-3 px-4 text-blue-600 max-xmd:mr-3 ">
+         <i class="fa-solid fa-circle-dollar-to-slot"></i>
+        </div> 
+        <div>
+         <h3 class="font-semibold text-2xl">$30B</h3>
+         <p class="text-gray-300 max-md:text-xs">Digital Currency Exchange</p>
+        </div>
+     </div>
+
+
+     <div class="flex items-center justify-between max-md:justify-normal max-md:m-auto">
+         <div class="mr-5 text-2xl  bg-gray-600 rounded-full py-3 px-4 text-blue-600 max-xmd:mr-3 ">
+             <i class="fa-solid fa-earth-americas"></i>
+         </div> 
+         <div>
+          <h3 class="font-semibold text-2xl">190+</h3>
+          <p class="text-gray-300 max-md:text-xs">Countries Around The World</p>
+         </div>
+      </div>
+
+
+      <div class="flex items-center justify-between max-md:justify-normal max-md:m-auto">
+         <div class="mr-5 text-2xl bg-gray-600 rounded-full py-3 px-4  text-blue-600 max-xmd:mr-3">
+             <i class="fa-solid fa-users"></i>
+         </div> 
+         <div>
+          <h3 class="font-semibold text-2xl">$10M</h3>
+          <p class="text-gray-300 max-md:text-xs">Trusted Wallet Investors</p>
+         </div>
+      </div>
+ </div>
+  
+
+   <!-- WHY YOU SHOULD CHOOSE -->
+ <div class="grid grid-cols-2 items-center gap-7 mt-10 m-auto w-4/5 max-lg:w-[90%] max-md:grid-cols-1">
+     <div data-aos="fade-right">
+        <img src="./img/why-img.83f7e1610dd390441337.png" alt=""> 
+     </div>
+     <div data-aos="fade-left" class="text-color-white">
+         <h1 class="text-5xl">why you should choose CHAPPO</h1>
+         <p class="text-gray-300 mt-6 mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, laboriosam? Lorem ipsum dolor sit amet consectetur adipisicing elit. In, praesentium.</p>
+         <button class="bg-blue-500 rounded-3xl py-1 px-4">learn more</button>
+     </div>
+ </div>
+   
+ <!-- HASHRATE -->
+ <div class="m-auto w-2/3 mt-20  text-color-white z-10 relative shadow-lg shadow-black-500/50 max-xmd:w-[90%]">
+     <div data-aos="fade-up"  class="m-auto w-2/3 text-center max-md:w-[80%]">
+         <h2 class="text-2xl font-semibold">How Much Can You Earn With Us</h2>
+         <p class="text-gray-300 my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, id similique temporibus dignissimos tempore odio?</p>
+     </div>
+
+     <div data-aos="fade-up" class=" w-[100%] bg-white text-black p-10 max-md:px-5 mt-10 rounded-[20px]"  >
+           <div class="flex justify-between max-md:grid max-md:grid-cols-1 max-md:gap-10 ">
+             <input type="text" placeholder="Enter your Hash rate" class="w-[40%] text-xl outline-none border-b-2 max-md:w-[100%]">
+             <select class="w-[15%] outline-none border-b-2 max-md:w-[100%]" >
+                 <option value="MH/s">MH/s</option>
+                 <option value="H/s">H/s</option>
+                 <option value="kH/s">kH/s</option>
+                 <option value="MH/s">MH/s</option>
+                 <option value="GH/s">GH/s</option>
+             </select>
+             <button class="bg-blue-500 rounded-3xl py-1.5 px-7 text-color-white max-md:max-w-[150px]">Calculate</button>
+           </div>
+           <p class="text-lg my-8 text-blue-600">ESTIMATED 24 HOUR REVENUE:</p>
+           <h4 class="text-4xl font-bold mb-8 max-sm:text-3xl">0.055 130 59 ETH <span class="text-blue-500">($1275)</span></h4>
+           <p class="text-gray-500">Revenue will change based on mining difficulty and Ethereum price.</p> 
+     </div>
+ </div>
+ 
+     <!-- TRADE SECURELY -->
+ <div class="bg-color-section  mt-[-100px] z-1 pt-32 pb-24 ">
+    <div class="mt-20 w-4/5 m-auto max-lg:w-[90%]">
+     <h1 data-aos="fade-up" class="text-center text-2xl font-medium mb-20">Trade Securely And Market The High Growth Cryptocurrencies.</h1>
+     <div class="grid grid-cols-3 gap-10 max-xmd:grid-cols-1 ">
+       <div class="bg-white rounded-[20px] shadow-md p-10 text-center cursor-pointer" id="col">
+           <img src="./img/download.png" alt="" class="m-auto">
+           <h2 class="text-3xl my-8 font-bold">Bitcoin<span class="text-sm text-gray-400 pl-2">BTC</span></h2>
+           <p class="mb-8">Digital currency in which a record of transactions is maintained.</p>
+          <button class="border-2 border-gray-400 rounded-full py-5 px-7 items-center  text-blue-600  " id="btn"><span class="mr-4 hidden" id="span">Start Mining</span><i class="fa-solid fa-chevron-right "></i></button>
+       </div>
+       <div class=" bg-white rounded-[20px] shadow-md p-10 text-center cursor-pointer  col-active" id="col">
+         <img src="./img/download (2).png" alt=""  class="m-auto">
+         <h2 class="text-3xl my-8 font-bold">Ethereum<span class="text-sm text-gray-400  pl-2">ETH</span></h2>
+         <p class="mb-8 ">Blockchain technology to create and run decentralized digital applications.</p>
+         <button class="border-2 border-gray-400 rounded-full py-5 px-7 items-center  text-blue-600  btn-active " id="btn"><span class="mr-4 hidden span-active" id="span">Start Mining</span><i class="fa-solid fa-chevron-right "></i></button>
+     </div>
+     <div class="bg-white  rounded-[20px] shadow-md p-10 text-center cursor-pointer" id="col">
+         <img src="./img/download (3).png " alt=""  class="m-auto">
+         <h2 class="text-3xl my-8 font-bold">Litcoin<span class="text-sm text-gray-400 pl-2 ">LTC</span></h2>
+         <p class="mb-8">Cryptocurrency that enables instant payments to anyone in the world.</p>
+         <button class="border-2 border-gray-400 rounded-full py-5 px-7 items-center text-blue-600 " id="btn"><span class="mr-4 hidden" id="span">Start Mining</span><i class="fa-solid fa-chevron-right"></i></button>
+     </div>
+     </div>
+    </div>
+ </div>
+
+      <!-- PORTFOLIO -->
+      <div class="w-4/5 m-auto mt-20 text-color-white max-lg:w-[90%] ">
+         <h3 data-aos="fade-up" class="text-3xl w-[60%] text-center m-auto max-md:w-[90%] max-md:text-xl">Market Sentiments, Portfolio, And Run The Infrastructure Of Your Choice</h3>
+         <div  class="grid grid-cols-2 mt-24 gap-8 w-[100%] items-center max-md:grid-cols-1">
+             <div  data-aos="fade-right" class="w-[80%]">
+                 <h2 class="text-3xl font-bold">Invest Smart</h2>
+                 <p class="text-gray-400 my-8">Loren ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur rem ducimus vitae malores dolorum alias.</p>
+                 <button class="bg-blue-500 rounded-3xl py-1 px-4">learn more</button>
+             </div>
+             <div  data-aos="fade-left"><img src="./img/feature-1-img.3ebec6b2c18fd2e8cb8f.png" alt=""></div>
+         </div>
+ 
+           <div class="grid grid-cols-2 gap-8 w-[100%] my-28 items-center  max-md:grid-cols-1">
+             <div  data-aos="fade-right"><img src="./img/feature-2-img.cf233659a120d86cd676.png" alt=""></div>
+             <div  data-aos="fade-left">
+                 <h2 class="text-3xl font-bold">Detailed Statistics</h2>
+                 <p class="text-gray-400 my-8">Loren ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur rem ducimus vitae malores dolorum alias.</p>
+                 <button class="bg-blue-500 rounded-3xl py-1 px-4">learn more</button>
+             </div>
+           </div>
+       
+             <div class="grid grid-cols-2 gap-8 w-[100%] items-center max-md:grid-cols-1">
+                 <div  data-aos="fade-right">
+                     <h2 class="text-3xl font-bold">Grow Your Profit And Track Your Investments</h2>
+                     <p class="text-gray-400 my-8">Loren ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur rem ducimus vitae malores dolorum alias.</p>
+                     <button class="bg-blue-500 rounded-3xl py-1 px-4">learn more</button>
+                 </div>
+                 <div  data-aos="fade-left"><img src="./img/feature-3-img.5df40cff033a1a81e9d1.png" alt=""></div>
+             </div>
+         
+     </div>
+         
+       <!-- MESSAGE -->
+     <div  data-aos="fade-up" class="w-4/5 m-auto text-color-white mt-24 bg-image rounded-[20px] max-lg:w-[90%]">
+         <div class="flex items-center justify-between px-14 pt-14 pb-28 max-md:grid max-md:grid-cols-1 max-md:gap-8  ">
+             <div class="w-[35%] max-md:w-[100%]">
+                 <h2 class="text-2xl mb-4">Start Mining Now</h2>
+                 <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,saepe.</p>
+             </div>
+             <input type="text" placeholder="enter your message" class="w-[40%] bg-transparent text-lg border-b-2 placeholder:text-white border-b-white text-white outline-none max-md:w-[100%]">
+             <button  class="bg-white text-black rounded-3xl py-2 px-8 max-md:max-w-[200px]" >Subscribe</button>
+         </div>
+     </div>
+ 
+       <!-- FOOTER    -->
+     <footer class="w-4/5 m-auto text-color-white mt-32 max-lg:w-[90%] ">
+         <div class="grid grid-cols-4 max-md:grid-cols-1 max-md:text-center max-md:gap-8">
+             <div class="max-md:m-auto">
+                 <a href="#"><img src="/img/logo.e44a93b92960b7a7a870e08a3080d60e.svg" alt="logo"></a>
+             </div>
+             <div>
+                 <h2 class="text-xl mb-6">Quick Links</h2>
+                 <ul>
+                         <li><a href="#">Home</a></li>
+                         <li class="list"><a href="#">Products</a></li>
+                         <li class="list"><a href="#">About</a></li>
+                         <li class="list"><a href="#">Features</a></li>
+                         <li class="list"><a href="#">Contact</a></li>
+                 </ul>
+             </div>
+             <div>
+                 <h2 class="text-xl mb-6">Resources Links</h2>
+                 <ul>
+                     <li><a href="#">Download Whitepaper</a></li>
+                         <li class="list" ><a href="#">Smart Token</a></li>
+                         <li class="list"><a href="#">Blockchain Explore</a></li>
+                         <li class="list"><a href="#">Crypto API</a></li>
+                         <li class="list"><a href="#">Interest</a></li>
+                 </ul>
+             </div>
+             <div class="max-md:m-auto">
+                 <h2 class="text-xl mb-4">We accept the following payment systems</h2>
+                 <div class="grid grid-cols-3 gap-2">
+                    <a href="#"><img src="/img/visa.png" alt=""></a>
+                    <a href="#"><img src="/img/mastercard.png" alt=""></a>
+                    <a href="#"><img src="/img/bitcoin.png" alt=""></a>
+                 </div>
+             </div>
+         </div>
+         <div class="flex justify-between items-center my-14 max-md:block max-md:text-center"> 
+             <h2 class="text-xl max-md:text-base">© 2023 CRAPPO. All rights reserved.</h2>
+             <div class="mt-5">
+                 <i class="fa-brands fa-youtube mr-4 text-2xl"></i>
+                 <i class="fa-brands fa-whatsapp mr-4 text-2xl"></i>
+                 <i class="fa-brands fa-instagram mr-4 text-2xl"></i>
+                 <i class="fa-brands fa-twitter mr-4 text-2xl"></i>
+                 <i class="fa-brands fa-linkedin text-2xl"></i>
+             </div>
+         </div>
+     </footer>
+
+
+
+</div>
+ 
+
+ 
+
+<script src="app.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init(
+        {
+            duration:2000,
+            delay:100
+        }
+    );
+  </script>
+</body>
+</html>

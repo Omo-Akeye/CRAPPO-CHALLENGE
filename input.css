@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.col-active {
+    background-color:  rgb(43 7 110);
+    color: #fff;
+}
+.btn-active{
+    background-color:  rgb(39 102 230);
+    color: #fff;
+    border: none;
+}
+.span-active{
+    display: inline;
+}
+.bg-image {
+    background-image: url(/img/subscribe.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.list{
+    margin-top: 14px;
+}
+.display {
+    right: 0;
+}
